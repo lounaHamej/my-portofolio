@@ -1,0 +1,133 @@
+
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f4f7f6;
+}
+
+ .header {
+     background-color: blue;
+     color: white;
+     padding: 40px;
+     text-align: left;
+}
+.profile-circle {
+      background-color: rgb(219, 36, 122);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 15px;
+}
+
+header h1 {
+       margin: 0 0 10px 0;
+font-size: 36px;
+}
+
+header p {
+       margin: 0;
+       font-size: 16px;
+       opacity: 0.8;
+}
+
+.card {
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 8px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+        color:#2c3e50;
+        font-size: 20px;
+        margin-top: 0;
+        border-bottom: 2px solid #e67e22;
+        padding-bottom: 8px;
+        display: inline-block;
+}
+
+.card p {
+        color: #555;  
+        line-height: 1.6;
+
+}
+.skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+}
+
+.skill-tag {
+        background-color: #f0f3f4;
+        color: #2c3e50;
+        padding: 10px 14px;
+        border-radius: 20px; 
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid #dcdde1;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+     }
+
+form label {
+           font-weight: bold;
+           color: #2c3e50;
+           margin-bottom: 5px;
+           font-size: 14px;
+           }
+
+form input, form textarea {
+             padding: 10px;
+             margin-bottom: 15px;
+             border: 1px solid #dcddel;
+             border-radius: 6px;
+             font-size: 14px;
+             outline: none;
+                           }
+
+form iput:focus, form textarea:focus{
+             border-color: orange;
+                                    }
+
+form textarea {
+              resize:vertical;
+              height: 80px;
+              }
+
+.send-btn {
+          background-color: #e67e22;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 6px;
+          font-weight: bold;
+          cursor: pointer;
+          font-size: 15px;
+          align-self: flex-start;
+          }
+.send-btn:hover {
+                 background-color: #d35400;
+                }
+
+
+
+
+ 
+
+
+
+
+
+
+
+

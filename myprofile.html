@@ -1,0 +1,53 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>my Profile</title>
+</head>
+<body>
+    <header class="header">
+           <div class="profile-circle">HR</div>
+           <h1>Hi I'm LOUBNA</h1>
+           <p>fontend developer in training, building small projects.</p>
+    </header>
+    <section class="card">
+    <h2>About me</h2>
+    <p> I'm currenty learning web development, starting with HTML and CSS. I enjoy solving small problems and I'm excited to build my first real, styled web page.</p>
+    </section>
+
+      <section class="card">
+      <h2>skills</h2>
+      <div class="skills-container">
+         <span class="skill-tag">HTML</span>
+         <span class="skill-tag">CSS</span>
+         <span class="skill-tag">Flexbox</span>
+         <span class="skill-tag">Forms</span>
+         <span class="skill-tag">Semantic Tags</span>
+      </div>
+       </section>
+  <div class="card">
+      <h2>Contact me</h2>
+  <form>
+         <label for="name">Name</label>
+         <input type="text" id="name" placeholder="your name"
+         
+         <label for="email">Email</label>
+         <input type="email id="email" placeholder="you@exampe.com">
+
+         <label for="message">Message</label>
+         <textarea id="message" placeholder="Say hello....."></textarea>
+      
+         <button type="button"class="send-btn" onclick="alert('Funziona!')">Send Message</button>
+   </form>
+   </div>
+
+<script>
+   const btn = document.querySelector('.send-btn');
+btn.onclick = function() {
+      
+
+     alert('grazie per avermi contattato! il tuo messaggio è stato inviato con successo');
+};
+</script>
+
+</body>
+</html>
